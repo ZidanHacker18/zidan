@@ -299,13 +299,14 @@ p {
 .flex-navigation {
   display: flex;
   align-items: center;
+  margin-bottom: auto;
 }
 .flex-nav {
   display: flex;
   align-items: center;
 }
 input {
-  padding: 10px 0px 8px 15px;
+  padding: 10px 45px 8px 15px;
   background: #F5F5F7;
   border: transparent;
   border-radius: 0px 8px 8px 0px;
@@ -337,4 +338,123 @@ input {
 .btn-profile:hover {
   background-color: #F5F5F7;
   border-radius: 8px;  
+}
+.mg-top-bottom {
+  margin-top: 21px;
+  margin-bottom: 24px;
+}
+.boxes {
+  width: 440px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.text-box {
+  font-family: 'Baloo Bhai';
+  font-size: 64px;
+  font-weight: 400;
+  margin-right: 11px;
+  margin-left: 35px;    
+}
+.box1 {
+  display: flex;
+  align-items: center;
+  width: 208px;
+  background-color: #F5F5F7;
+  border-radius: 14px;
+  transition: all .2s ease-in-out;
+}
+.box1:hover {
+  background-color: lawngreen;
+}
+.text-box-p {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;    
+}
+.column {
+  flex-direction: column;
+}
+.text-stat {
+  font-weight: 400;
+  font-family: 'Baloo Bhai';
+  font-size: 24px;
+}
+.mg-bottom-16 {
+  margin-bottom: 16px;
+}
+.text-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-h3 {
+  font-family: 'Baloo Bhai';
+  font-size: 16px;
+  font-weight: 400;  
+}
+.text-opacity {
+  opacity: 0.3;
+}
+.mg-left {
+  margin-left: -100px;
+}
+.mg-bottom-32 {
+  margin-bottom: 32px;
+}
+.mg-bottom-49 {
+  margin-bottom: 49px;
+}
+.select {
+  background: #F5F5F7;
+  border-radius: 8px;
+  padding: 4px;
+  border: transparent;
+}
+.premium {
+  background: #F5F5F7;
+  display: flex;
+  border-radius: 14px;
+  transition: all .2s ease-in-out;
+}
+.premium:hover {
+  background-color: rgb(229, 255, 0);
+}
+.flex-last {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-left: 23px;
+  padding-bottom: 15px;
+  padding-right: 54px;
+}
+.text-last-h2 {
+  font-family: 'Baloo Bhai';
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 8px;    
+}
+.text-last-p {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;    
+}
+.button-last {
+  width: 120px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border:transparent;
+  border-radius: 8px;
+  transition: all 0.4s ease-in-out;
+}
+.img-book {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.button-last:hover {
+  font-size: 17px;
 }
